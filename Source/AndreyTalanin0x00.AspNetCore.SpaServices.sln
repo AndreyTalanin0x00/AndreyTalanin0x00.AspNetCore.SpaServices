@@ -4,21 +4,21 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Packages", "1. Packages", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.SpaServices", "AndreyTalanin0x00.AspNetCore.SpaServices\AndreyTalanin0x00.AspNetCore.SpaServices.csproj", "{94DA24B3-7553-42BF-A227-44FF96BDB65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions", "AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions\AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions.csproj", "{4931F4DB-CD8A-453F-A3D9-14FEA70CCEDD}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Class Libraries", "2. Class Libraries", "{A50427E0-BA44-4730-806B-6EBEE2A9F12E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test Libraries", "3. Test Libraries", "{E87A5DA1-E252-41CE-B8DC-F0599818F6EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1. Package Tests", "3.1. Package Tests", "{F8494F84-C46C-4815-889D-8F3C7E651F65}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.SpaServices.UnitTests", "Tests\AndreyTalanin0x00.AspNetCore.SpaServices.UnitTests\AndreyTalanin0x00.AspNetCore.SpaServices.UnitTests.csproj", "{0A81BE8D-0A07-417E-AD92-185463E69E18}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2. Class Library Tests", "3.2. Class Library Tests", "{8EA58F50-1161-4CC2-B443-80EA28CA0E9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Solution Items", "4. Solution Items", "{CA486860-1C3D-492A-8006-2CB59DCB7093}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.SpaServices", "AndreyTalanin0x00.AspNetCore.SpaServices\AndreyTalanin0x00.AspNetCore.SpaServices.csproj", "{94DA24B3-7553-42BF-A227-44FF96BDB65B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions", "AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions\AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions.csproj", "{4931F4DB-CD8A-453F-A3D9-14FEA70CCEDD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.SpaServices.UnitTests", "Tests\AndreyTalanin0x00.AspNetCore.SpaServices.UnitTests\AndreyTalanin0x00.AspNetCore.SpaServices.UnitTests.csproj", "{0A81BE8D-0A07-417E-AD92-185463E69E18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,7 +43,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{94DA24B3-7553-42BF-A227-44FF96BDB65B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4931F4DB-CD8A-453F-A3D9-14FEA70CCEDD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F8494F84-C46C-4815-889D-8F3C7E651F65} = {E87A5DA1-E252-41CE-B8DC-F0599818F6EB}
+		{0A81BE8D-0A07-417E-AD92-185463E69E18} = {F8494F84-C46C-4815-889D-8F3C7E651F65}
 		{8EA58F50-1161-4CC2-B443-80EA28CA0E9D} = {E87A5DA1-E252-41CE-B8DC-F0599818F6EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

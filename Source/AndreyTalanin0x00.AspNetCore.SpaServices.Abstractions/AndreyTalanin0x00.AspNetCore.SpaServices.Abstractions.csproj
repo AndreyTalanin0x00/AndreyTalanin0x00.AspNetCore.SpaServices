@@ -18,7 +18,7 @@
     <Authors>Andrey Talanin</Authors>
     <Description>A set of abstractions for the Single Page Application pattern implementation.</Description>
     <RepositoryUrl>https://github.com/AndreyTalanin0x00/AndreyTalanin0x00.AspNetCore.SpaServices.git</RepositoryUrl>
-    <Version>0.1.0-dev0</Version>
+    <Version>0.1.0-rc1</Version>
   </PropertyGroup>
 
   <ItemGroup>

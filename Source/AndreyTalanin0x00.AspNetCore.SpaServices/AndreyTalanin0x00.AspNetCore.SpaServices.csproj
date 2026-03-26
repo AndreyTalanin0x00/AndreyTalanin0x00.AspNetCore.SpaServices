@@ -1,0 +1,38 @@
+<Project>
+
+  <Sdk Name="Microsoft.NET.Sdk" />
+
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RootNamespace>AndreyTalanin0x00.AspNetCore.SpaServices</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Andrey Talanin</Authors>
+    <Description>A set of utility classes and extension methods for the Single Page Application pattern implementation.</Description>
+    <RepositoryUrl>https://github.com/AndreyTalanin0x00/AndreyTalanin0x00.AspNetCore.SpaServices.git</RepositoryUrl>
+    <Version>0.1.0-dev0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AndreyTalanin0x00.AspNetCore.Hosting" Version="0.1.0-rc1" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.21" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions\AndreyTalanin0x00.AspNetCore.SpaServices.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

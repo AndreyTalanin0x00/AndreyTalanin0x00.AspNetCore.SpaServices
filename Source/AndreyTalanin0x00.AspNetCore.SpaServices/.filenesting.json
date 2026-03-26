@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "help": "https://go.microsoft.com/fwlink/?linkid=866610",
+  "dependentFileProviders": {
+    "add": {
+      "addedExtension": {}
+    }
+  }
+}

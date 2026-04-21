@@ -232,7 +232,9 @@ PublishScripts/
 # Ignore NuGet (Symbol) packages.
 ###############################################################################
 *.nupkg
+!Packages/*.nupkg
 *.snupkg
+!Packages/*.snupkg
 *.nuget.props
 *.nuget.targets
 
